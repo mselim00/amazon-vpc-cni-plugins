@@ -10,7 +10,7 @@ There is some tooling that needs to be in place for the tests to be able to run,
 
 - Git - you can install either the `build-essential` meta package on Debian based distros or the package group called `'Development Tools'` on RHEL based distros and that will get you `git`. Otherwise, you can install Git separately as well.
 - Make - the above meta package/package group will also include `make` but it can also be installed separately.
-- Go - go can be installed from the golang website; the tests are confirmed working on Go version 1.19
+- Go - go can be installed from the golang website; the tests are confirmed working on Go version 1.23
 - `iptables` - in case the tests are being run in a minimal environment, `iptables` can be obtained from the default package manager for the distro; it is likely that it is already installed on the system
 
 For the end to end tests, a successful build is also required. A build can be triggered by running `make build`.
